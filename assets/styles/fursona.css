@@ -1,0 +1,47 @@
+.main {
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.main h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.main h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.main table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.main table td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px;
+}
+
+.main table td.rightside {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main table td img {
+    display: block;
+    border: 1px solid #000;
+    cursor: help;
+}
+
+.main table td img:hover {
+    border: 1px solid #fff;
+}

@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #010101;
+}
+
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+
+.header h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 16px;
+    color: #fff;
+}
+
+.header h1 .hopen {
+    font-size: 16px;
+}
+
+.header h1 .hvirus {
+    color: #0a0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navigation {
+    position: -webkit-sticky; /* Safari Compatibility */
+    position: sticky;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+
+.navigation ul.sitenav {
+    float: left;
+    margin: 0;
+    padding: 1px;
+}
+
+.navigation ul.sitenav li {
+    list-style-type: none;
+    float: left;
+}
+
+.navigation ul.sitenav li a {
+    font-family: 'Quantico', sans-serif;
+    text-decoration: none;
+    display: block;
+    margin: 1px 1px 1px 32px;
+    padding: 2px 6px 2px 6px;
+    color: #fff;
+}
+
+.navigation ul.sitenav li a:hover {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.navigation ul.sitenav li a.active {
+    background-color: #444;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.main {
+    margin: 32px;
+    padding: 0;
+}
+
+.main h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 4px;
+    color: #fff;
+}
+
+.main h1 .hopen {
+    font-size: 32px;
+}
+
+.main h1 .hvirus {
+    color: #0a0;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.main p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.main ul {
+    list-style-type: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin: 0 0 100px 0;
+}
+
+.main ul li {
+    margin: 10px 0 0 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #050505;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 1px;
+}

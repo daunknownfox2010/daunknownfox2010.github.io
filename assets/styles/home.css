@@ -1,0 +1,33 @@
+.main {
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.main img {
+    display: block;
+    margin: auto;
+    border: 4px solid #fff;
+    border-radius: 25%;
+}
+
+.main h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.main h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.main p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 64px;
+}
