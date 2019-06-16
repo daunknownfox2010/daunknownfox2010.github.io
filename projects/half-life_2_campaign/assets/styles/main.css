@@ -1,7 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #eee;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-color: #111;
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .header {
@@ -12,13 +15,19 @@ body {
 }
 
 .header h1 {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 700;
     text-align: center;
     display: block;
     margin: 0;
     padding: 16px;
     color: #fff;
     cursor: default;
+}
+
+.header h1 .hcampaign {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .navigation {
@@ -30,6 +39,8 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #222;
+    filter: drop-shadow(0 4px 8px #000);
+    z-index: 1;
 }
 
 .navigation ul.sitenav {
@@ -64,46 +75,39 @@ body {
     cursor: default;
 }
 
-.navigation ul.medianav {
-    float: right;
-    margin: 0;
-    padding: 1px;
-    overflow: hidden;
-}
-
-.navigation ul.medianav li {
-    list-style-type: none;
-    float: right;
-}
-
-.navigation ul.medianav li a {
-    display: block;
-    margin: 1px 8px 1px 1px;
-    padding: 2px;
-    transition-property: filter;
-    transition-duration: 0.25s;
-}
-
-.navigation ul.medianav li a:hover {
-    filter: brightness(125%);
-}
-
-.navigation ul.medianav li a img {
-    display: block;
-    width: 22px;
-    height: 22px;
-    margin: 0;
+.main {
+    margin: 32px;
     padding: 0;
+}
+
+.main h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 4px;
+    color: #fff;
+    filter: drop-shadow(0 0 2px #000);
+}
+
+.main p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+    filter: drop-shadow(0 0 2px #000);
 }
 
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #ddd;
+    background-color: #050505;
 }
 
 .footer p {
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     text-align: center;

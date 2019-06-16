@@ -19,6 +19,7 @@ body {
     margin: 0;
     padding: 16px;
     color: #fff;
+    cursor: default;
 }
 
 .header h1 .hopen {
@@ -60,16 +61,17 @@ body {
     margin: 1px 1px 1px 32px;
     padding: 2px 6px 2px 6px;
     color: #fff;
+    border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 0.25s;
 }
 
 .navigation ul.sitenav li a:hover {
     background-color: #333;
-    border-radius: 4px;
 }
 
 .navigation ul.sitenav li a.active {
     background-color: #444;
-    border-radius: 4px;
     cursor: default;
 }
 
