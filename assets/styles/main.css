@@ -30,7 +30,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #222;
-    z-level: 1;
+    z-index: 1;
 }
 
 .navigation ul.sitenav {
