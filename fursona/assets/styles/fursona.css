@@ -39,7 +39,9 @@
 .main table td img {
     display: block;
     border: 1px solid #000;
-    cursor: help;
+    cursor: zoom-in;
+	transition-property: border;
+	transition-duration: 0.5s;
 }
 
 .main table td img:hover {
