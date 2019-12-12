@@ -1,0 +1,27 @@
+.main {
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.main img {
+	width: 64px;
+	height: 64px;
+    display: block;
+    margin: auto;
+}
+
+.main h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.main p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: auto;
+	padding: 0;
+}
